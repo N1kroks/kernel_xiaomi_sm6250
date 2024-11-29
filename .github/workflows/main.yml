@@ -1,6 +1,7 @@
 on:
   push:
     branches: [ non-ksu ]
+  workflow_dispatch:
 jobs:
   node-docker:
     runs-on: ubuntu-latest
